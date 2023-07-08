@@ -23,5 +23,7 @@ Ngoài ra, có các biểu đồ sau phục vụ mục đích đặt ra:
 **Những File không có là những File Visualization dữ liệu bằng Python của chính đối tượng đó.**
 
 Ngoài ra em/mình còn thực hiện một bản Report chi tiết về Project này, để hiểu hơn về project hãy ấn vào link dưới đây:
+
 Google Docs: https://docs.google.com/document/d/1yqVyse-NGpIDU8vGTWmRku0iqsa8eXDxZUQ6HB5BH5s/edit?usp=sharing 
+
 Slide Report: https://www.canva.com/vi_vn/mau/?category=tAExRLg81RI&fFormat=0BR
