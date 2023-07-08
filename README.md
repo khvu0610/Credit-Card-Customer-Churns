@@ -1,8 +1,12 @@
 # Project cá nhân: 
 **Mục đích**: Xây dựng data set về các đơn vận chuyển (giao hàng), phục vụ việc khai thác thông tin và tìm ra lộ trình giao hàng tối ưu từ nhà cung cấp đến kho trung chuyển, từ kho trung chuyển đến khách hàng: bố trí các đơn hàng vận chuyển sao cho có thể giao hàng đến tay khách hàng vào khoảng thời gian mong muốn, lấy hàng từ các kho đang có hàng tối ưu nhất, khai thác hết năng lực của đội xe, chọn tuyến đường xe được phép đi với chi phí ít nhất, chở được nhiều hàng nhất trên mỗi chặng ...
+
 **Thông tin**: 10000 bản ghi / đối tượng (cần bổ sung chi tiết các thuộc tính cho từng đối tượng tùy thuộc vào bộ dữ liệu, mỗi đối tượng có không dưới 20 thuộc tính): Nhà cung cấp(Warehouse), Kho(Warehouse), Khách hàng(Customer), Hàng(Gooditem), Đơn mua hàng(Order), Đơn giao hàng(DeliveryOrder), Xe(Vehicle), Lộ trình của đội xe(FleetJourney), Lộ trình của từng xe(VehicelJourney), Lộ trình của từng tuyến đường(DeliveryJourney) (từ kho/nhà cung cấp nào, qua các khách nào, quay về kho nào).
+
 **Bước1**: Tìm kiếm các data set hiện có: 10 File dữ liệu khác nhau trên Kaggle.
+
 **Bước2**: Bổ sung, chỉnh sửa, chuẩn hóa, phối ghép về dạng data set đầy đủ các nội dung thông tin như yêu cầu: Dựa trên 10 File đã tìm thấy, chuẩn hóa, phối ghép thành file yêu cầu (Ở mục **Thông tin**).
+
 **Bước3**: phân tích dữ liệu, trực quan hóa theo yêu cầu: 
 Với mỗi loại đối tượng, có 1 biểu đồ phân tích và 1 biểu đồ thống kê tự chọn khớp với mục tiêu của đề bài
 Ngoài ra, có các biểu đồ sau phục vụ mục đích đặt ra: 
