@@ -1,29 +1,29 @@
-# Project cá nhân: 
-**Mục đích**: Xây dựng data set về các đơn vận chuyển (giao hàng), phục vụ việc khai thác thông tin và tìm ra lộ trình giao hàng tối ưu từ nhà cung cấp đến kho trung chuyển, từ kho trung chuyển đến khách hàng: bố trí các đơn hàng vận chuyển sao cho có thể giao hàng đến tay khách hàng vào khoảng thời gian mong muốn, lấy hàng từ các kho đang có hàng tối ưu nhất, khai thác hết năng lực của đội xe, chọn tuyến đường xe được phép đi với chi phí ít nhất, chở được nhiều hàng nhất trên mỗi chặng ...
+# Personal Project:
+**Purpose**: Building a dataset for transportation (delivery) orders to facilitate information exploitation and find optimal delivery routes from suppliers to transit warehouses, and from transit warehouses to customers. The project aims to arrange delivery orders to reach customers within the desired timeframe, optimize inventory retrieval from warehouses, maximize the fleet's capacity, select the least costly routes for vehicles, transport the maximum amount of goods on each leg, etc.
 
-**Thông tin**: 10000 bản ghi / đối tượng (cần bổ sung chi tiết các thuộc tính cho từng đối tượng tùy thuộc vào bộ dữ liệu, mỗi đối tượng có không dưới 20 thuộc tính): Nhà cung cấp(Warehouse), Kho(Warehouse), Khách hàng(Customer), Hàng(Gooditem), Đơn mua hàng(Order), Đơn giao hàng(DeliveryOrder), Xe(Vehicle), Lộ trình của đội xe(FleetJourney), Lộ trình của từng xe(VehicelJourney), Lộ trình của từng tuyến đường(DeliveryJourney) (từ kho/nhà cung cấp nào, qua các khách nào, quay về kho nào).
+**Information**: 10,000 records/objects (each object contains at least 20 attributes). The dataset includes the following entities: Supplier (Warehouse), Transit Warehouse (Warehouse), Customer (Customer), Goods (Gooditem), Purchase Order (Order), Delivery Order (DeliveryOrder), Vehicle (Vehicle), Fleet Journey (FleetJourney), Vehicle Journey (VehicelJourney), and Delivery Journey (DeliveryJourney) (showing which warehouse/supplier, customers, and returning to which warehouse).
 
-**Bước1**: Tìm kiếm các data set hiện có: 10 File dữ liệu khác nhau trên Kaggle.
+**Step 1**: Search for existing datasets: Find 10 different datasets on Kaggle.
 
-**Bước2**: Bổ sung, chỉnh sửa, chuẩn hóa, phối ghép về dạng data set đầy đủ các nội dung thông tin như yêu cầu: Dựa trên 10 File đã tìm thấy, chuẩn hóa, phối ghép thành file yêu cầu (Ở mục **Thông tin**).
+**Step 2**: Supplement, modify, normalize, and merge into a complete dataset as required: Based on the 10 found datasets, normalize and merge them into the specified file format (under **Information**).
 
-**Bước3**: phân tích dữ liệu, trực quan hóa theo yêu cầu: 
-Với mỗi loại đối tượng, có 1 biểu đồ phân tích và 1 biểu đồ thống kê tự chọn khớp với mục tiêu của đề bài
-Ngoài ra, có các biểu đồ sau phục vụ mục đích đặt ra: 
-- Biểu đồ hiện thị lượng tồn kho của một mặt hàng cụ thể tại tất cả các kho tại một thời điểm
-- Biểu đồ thống kê lượng hàng (hoặc giá trị) nhập / xuất kho tại tất cả các kho trong một giai đoạn
-- Biểu đồ thống kê sự có mặt của 1 mặt hàng cụ thể trong các đơn mua hàng trong một giai đoạn
-- Biểu đồ thống kê số lượng đơn mua hàng của các khách hàng trong một giai đoạn
-- Biểu đồ so sánh tần suất lựa chọn kho để lấy một mặt hàng trong một giai đoạn
-- Biểu đồ so sánh tần suất sử dụng các xe của một đội xe trong một giai đoạn
-- Biểu đồ so sánh tần suất sử dụng tuyến đường của các xe trong đội xe trong một giai đoạn
-- Biểu đồ thể hiện chênh lệch doanh thu từ đơn vân chuyển / chi phí vận chuyển trong một giai đoạn
+**Step 3**: Analyze the data and visualize as requested:
+For each type of entity, create one analytical chart and one custom statistical chart matching the project's objectives.
+Additionally, create the following charts to serve specific purposes:
+- Chart showing the inventory level of a specific item in all warehouses at a given time.
+- Statistical chart of the quantity (or value) of goods imported/exported in all warehouses during a period.
+- Statistical chart of the presence of a specific item in purchase orders during a period.
+- Statistical chart of the number of purchase orders from customers during a period.
+- Chart comparing the frequency of selecting warehouses to retrieve an item during a period.
+- Chart comparing the frequency of using vehicles within the fleet during a period.
+- Chart comparing the frequency of using routes by vehicles in the fleet during a period.
+- Chart showing the revenue difference from delivery orders / transportation costs during a period.
 
-**Những file có -Wrangling là những File xử lý dữ liệu bằng Python (chuẩn hóa, phối ghép) của đối tượng đó.**
-**Những File không có là những File Visualization dữ liệu bằng Python của chính đối tượng đó.**
+**Files with -Wrangling are Python data processing files (normalization, merging) for that specific entity.**
+**Files without it are Python data visualization files for that specific entity.**
 
-Ngoài ra em/mình còn thực hiện một bản Report chi tiết về Project này, để có những insight mà em/mình tìm được về project, vui lòng ấn vào link dưới đây:
+In addition, I also made a detailed report about this project, to have the insights I found about the project, please click on the link below:
 
-Google Docs: https://docs.google.com/document/d/1yqVyse-NGpIDU8vGTWmRku0iqsa8eXDxZUQ6HB5BH5s/edit?usp=sharing 
+Final Report: https://docs.google.com/document/d/1yqVyse-NGpIDU8vGTWmRku0iqsa8eXDxZUQ6HB5BH5s/edit?usp=sharing 
 
 Slide Report: https://www.canva.com/vi_vn/mau/?category=tAExRLg81RI&fFormat=0BR
