@@ -10,6 +10,6 @@ Role details:
 
 Result: Defined  main factors to the issue, GradientBoosting model with f1 -score and accuracy up to 92%.
 
-**To have a better understanding of the data set and insights I found, you can visit the link below:
-**
+**To have a better understanding of the data set and insights I found, you can visit the link below:**
+
 Report Presentation: https://www.canva.com/design/DAFkc56fjSw/bBMZH5BqdaIkyLaJTzt7pw/edit?utm_content=DAFkc56fjSw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
