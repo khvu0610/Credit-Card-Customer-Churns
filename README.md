@@ -24,6 +24,6 @@ Additionally, create the following charts to serve specific purposes:
 
 In addition, I also made a detailed report about this project, to have the insights I found about the project, please click on the link below:
 
-Final Report: https://docs.google.com/document/d/1yqVyse-NGpIDU8vGTWmRku0iqsa8eXDxZUQ6HB5BH5s/edit?usp=sharing 
+**Final Report**: https://docs.google.com/document/d/1yqVyse-NGpIDU8vGTWmRku0iqsa8eXDxZUQ6HB5BH5s/edit?usp=sharing 
 
-Slide Report: https://www.canva.com/vi_vn/mau/?category=tAExRLg81RI&fFormat=0BR
+**Slide Report**: https://www.canva.com/vi_vn/mau/?category=tAExRLg81RI&fFormat=0BR
