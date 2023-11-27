@@ -1,4 +1,4 @@
-# Personal Project:
+# Project Report:
 
 ## 1. Introduction
 
