@@ -34,7 +34,7 @@ In this part, I will show all the raw datasets for this project, the status and 
 #### 2.2.1. Table Inventory Information. (Warehouse)
 ![Images/Figure 1 Inventory of Field & Stream Sportsman 16 Gun Fire Safe item by month of the year..png](https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/fdfbee65a1788685e4925f910ff37ba6f136a880/Images/Figure%201%20Inventory%20of%20Field%20%26%20Stream%20Sportsman%2016%20Gun%20Fire%20Safe%20item%20by%20month%20of%20the%20year..png)
 
-- Requirement: We are required to plot a graph showing the inventory of a specific category in all warehouses at a specific time. Because an item is only available in one stock, we choose the item with the highest sales volume.
+- **Requirement**: We are required to plot a graph showing the inventory of a specific category in all warehouses at a specific time. Because an item is only available in one stock, we choose the item with the highest sales volume.
 - Explanation: From the requirement, we chose the File Order.csv for this figure, and all months in 2021 as the timeframe. The x-axis represents the Month, and the y-axis represents the Inventory Quantity.
 - Figure description: As shown in the figure, the lowest amount of inventory was in February 2021 but then increased sharply in March. From April to October, the total inventory of products changed unusually but in general tended to decrease. November is the month with the highest inventory of the year.
 #### 2.2.2. Overall Warehouse Inventory. (Warehouse)
@@ -95,8 +95,8 @@ II. FIGURES 9 TO 17: ADDITIONAL CHARTS AND GRAPHS
 - Overall description: This chart will show the sales profit in each different country, based on which you can see which countries consume the most. 
 - Explanation: In this graph, we decided to use a barplot. The x-axis reflects the profit in each country, and the y-axis demonstrates the country that consumes good items.
 - Figure description: In general, profits are highest in the two countries Francia, Alemania, decreasing in the following countries
-11. Top 10 cities with the most customers. (Customers)
-Figure 11: Top 10 cities with the most customers.https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/018c7704af75151448d12851fcc63234d1594900/Images/Figure%2011%20Top%2010%20cities%20with%20the%20most%20customers..png
+#### 2.2.11. Top 10 cities with the most customers. (Customers)
+![Figure 11: Top 10 cities with the most customers..png](https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/018c7704af75151448d12851fcc63234d1594900/Images/Figure%2011%20Top%2010%20cities%20with%20the%20most%20customers..png)
 
 - Overall description: This chart shows the cities with the most customers in descending order. 
 - Explanation: In this graph, we decided to use a barplot. The x-axis reflects the city, and the y-axis demonstrates the Number of customers.
