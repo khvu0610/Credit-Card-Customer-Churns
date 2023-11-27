@@ -38,7 +38,7 @@ In this part, I will show all the raw datasets for this project, the status and 
 - Explanation: From the requirement, we chose the File Order.csv for this figure, and all months in 2021 as the timeframe. The x-axis represents the Month, and the y-axis represents the Inventory Quantity.
 - Figure description: As shown in the figure, the lowest amount of inventory was in February 2021 but then increased sharply in March. From April to October, the total inventory of products changed unusually but in general tended to decrease. November is the month with the highest inventory of the year.
 #### 2.2.2. Overall Warehouse Inventory. (Warehouse)
-[Figure 2: Inventory remainings in each warehouses over the first 3 quarters in 2022](https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/72a5adc05516623fc30aff68c8330ccf570a21bf/Images/Figure%202%20Inventory%20remainings%20in%20each%20warehouses%20over%20the%20first%203%20quarters%20in%202022.png)
+![Figure 2: Inventory remainings in each warehouses over the first 3 quarters in 2022](https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/72a5adc05516623fc30aff68c8330ccf570a21bf/Images/Figure%202%20Inventory%20remainings%20in%20each%20warehouses%20over%20the%20first%203%20quarters%20in%202022.png)
 
 - Requirement: We are required to plot a statistical graph showing the inventory of all categories in all warehouses in a period of time. 
 - Explanation: From the requirement, we chose the first 3 quarters in 2022 as the timeframe. This figure is plotted in a line graph, both demonstrating the trend and comparing warehouse inventory among the period to find out which warehouse is used most often. The x-axis is the time, and the y-axis is the quantity of items.
