@@ -1,4 +1,7 @@
 # Personal Project:
+
+## 1. Introduction
+
 **Purpose**: Building a dataset for transportation (delivery) orders to facilitate information exploitation and find optimal delivery routes from suppliers to transit warehouses, and from transit warehouses to customers. The project aims to arrange delivery orders to reach customers within the desired timeframe, optimize inventory retrieval from warehouses, maximize the fleet's capacity, select the least costly routes for vehicles, transport the maximum amount of goods on each leg, etc.
 
 **Information**: 10,000 records/objects (each object contains at least 20 attributes). The dataset includes the following entities: Supplier (Warehouse), Transit Warehouse (Warehouse), Customer (Customer), Goods (Gooditem), Purchase Order (Order), Delivery Order (DeliveryOrder), Vehicle (Vehicle), Fleet Journey (FleetJourney), Vehicle Journey (VehicelJourney), and Delivery Journey (DeliveryJourney) (showing which warehouse/supplier, customers, and returning to which warehouse).
@@ -19,19 +22,17 @@ Additionally, create the following charts to serve specific purposes:
 - Chart comparing the frequency of using routes by vehicles in the fleet during a period.
 - Chart showing the revenue difference from delivery orders / transportation costs during a period.
 
-**Files with -Wrangling are Python data processing files (normalization, merging) for that specific entity.**
+**Files with "-Wrangling" are Python data processing files (normalization, merging) for that specific entity.**
+
 **Files without it are Python data visualization files for that specific entity.**
 
-In addition, I also made a detailed report about this project, to have the insights I found about the project, please click on the link below:
+## 2. Analysis
 
-**Final Report**: https://docs.google.com/document/d/1yqVyse-NGpIDU8vGTWmRku0iqsa8eXDxZUQ6HB5BH5s/edit?usp=sharing 
-
-**Slide Report**: https://www.canva.com/vi_vn/mau/?category=tAExRLg81RI&fFormat=0BR
-
-PART 2: VISUALIZATION.
-I. FIGURES 1 TO 8: REQUIRED TASKS
-1. Table Inventory Information. (Warehouse)
-Figure 1: Inventory of "Field & Stream Sportsman 16 Gun Fire Safe" item by month of the year
+### 2.1. Data Cleaning
+In this part, I will show all the raw datasets for this project, the status and explain the plan, and how we do the concatenation and processing of the datasets.
+### 2.2. Data Visualisation
+#### 2.2.1. Table Inventory Information. (Warehouse)
+Images/Figure 1 Inventory of Field & Stream Sportsman 16 Gun Fire Safe item by month of the year..png
 
 - Requirement: We are required to plot a graph showing the inventory of a specific category in all warehouses at a specific time. Because an item is only available in one stock, we choose the item with the highest sales volume.
 - Explanation: From the requirement, we chose the File Order.csv for this figure, and all months in 2021 as the timeframe. The x-axis represents the Month, and the y-axis represents the Inventory Quantity.
