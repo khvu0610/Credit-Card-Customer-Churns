@@ -32,7 +32,7 @@ Additionally, create the following charts to serve specific purposes:
 In this part, I will show all the raw datasets for this project, the status and explain the plan, and how we do the concatenation and processing of the datasets.
 ### 2.2. Data Visualisation
 #### 2.2.1. Table Inventory Information. (Warehouse)
-[Images/Figure 1 Inventory of Field & Stream Sportsman 16 Gun Fire Safe item by month of the year..png](https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/fdfbee65a1788685e4925f910ff37ba6f136a880/Images/Figure%201%20Inventory%20of%20Field%20%26%20Stream%20Sportsman%2016%20Gun%20Fire%20Safe%20item%20by%20month%20of%20the%20year..png)
+![Images/Figure 1 Inventory of Field & Stream Sportsman 16 Gun Fire Safe item by month of the year..png](https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/fdfbee65a1788685e4925f910ff37ba6f136a880/Images/Figure%201%20Inventory%20of%20Field%20%26%20Stream%20Sportsman%2016%20Gun%20Fire%20Safe%20item%20by%20month%20of%20the%20year..png)
 
 - Requirement: We are required to plot a graph showing the inventory of a specific category in all warehouses at a specific time. Because an item is only available in one stock, we choose the item with the highest sales volume.
 - Explanation: From the requirement, we chose the File Order.csv for this figure, and all months in 2021 as the timeframe. The x-axis represents the Month, and the y-axis represents the Inventory Quantity.
@@ -44,13 +44,13 @@ In this part, I will show all the raw datasets for this project, the status and 
 - Explanation: From the requirement, we chose the first 3 quarters in 2022 as the timeframe. This figure is plotted in a line graph, both demonstrating the trend and comparing warehouse inventory among the period to find out which warehouse is used most often. The x-axis is the time, and the y-axis is the quantity of items.
 - Figure description: As it can be seen from the figure, the total number of items remaining in inventory dropped down gradually from the first day of 2022 to the last day of September. Only in warehouse F that the number of items in inventory was over 10000 at the end of the period whereas this number of warehouse B was nearly 8000 – the lowest. 
 ### 2.2.3. Statistical chart of the presence of a specific item in purchase orders in a period. (Orders)
-https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/72a5adc05516623fc30aff68c8330ccf570a21bf/Images/Figure%203%20Top%2010%20most%20purchased%20products..png
+!https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/72a5adc05516623fc30aff68c8330ccf570a21bf/Images/Figure%203%20Top%2010%20most%20purchased%20products..png
 
 - Requirement: We were asked to graph the presence of a particular item in purchase orders over a period.
 - Explanation:  From the requirement, we chose the File Order.csv for this figure. To be able to easily compare the quantity of goods that customers have ordered, based on that we can see which items have the most purchases. The longer the bar, the more purchases for that item. The x-axis is the Quantity, and the y-axis is the Product Name (For each item, they have a different color).
 - Figure description: Based on the figure, we can see that the two most ordered items by customers are Field & Stream Sportsman 16 Gun Fire Safe, and Diamondback Women's Serene Classic Comfort Bi. There is a big difference between the order quantity of these 2 products compared to the others.
 ### 2.2.4. Statistical chart of the number of purchase orders of customers in a period. (Orders)
-https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/72a5adc05516623fc30aff68c8330ccf570a21bf/Images/Figure%204%20Sale%E2%80%99s%20Orders%20on%20January%201%2C%202022.png
+!https://github.com/khvu0610/Credit-Card-Customer-Churns/blob/72a5adc05516623fc30aff68c8330ccf570a21bf/Images/Figure%204%20Sale%E2%80%99s%20Orders%20on%20January%201%2C%202022.png
 
 - Requirement: We were asked to do a statistical graph of the number of orders from customers over a period.
 - Explanation: From the requirement, once again, we chose the File Order.csv for this figure. To be able to easily compare the order of goods that customers have ordered, based on that we can see which customer has the most orders. The longer the bar, the more that customer orders. The x-axis is the Number of orders, and the y-axis is the Customer Name (For each customer, they have a different color).
